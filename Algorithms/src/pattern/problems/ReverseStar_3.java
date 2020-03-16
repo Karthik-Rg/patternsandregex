@@ -1,0 +1,34 @@
+package pattern.problems;
+
+public class ReverseStar_3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		int n = 7;
+		for (int i = n; i >= 0; i--) {
+
+			
+			
+			  for(int j=0; j<n-i; j++) {
+			  
+			  System.out.print(" ");
+			  
+			  }
+			  
+			 
+
+			for (int j = n; j >= n-i; j--) {
+
+				System.out.print("*");
+
+			}
+
+			System.out.println("");
+		}
+
+		
+	}
+
+}
